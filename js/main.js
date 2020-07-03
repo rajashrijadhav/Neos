@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('.rj-slider').slick({
+jQuery(document).ready(function(){
+    jQuery('.rj-slider').slick({
         // accessibility: false,
        
         //appendArrows: '.header',
@@ -16,7 +16,7 @@ $(document).ready(function(){
        cssEase: 'linear',
     });
 
-    $('.product-slider').slick({
+    jQuery('.product-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
@@ -27,7 +27,7 @@ $(document).ready(function(){
         dots:true,
       });
 
-      $('.testimonial-slider').slick({
+      jQuery('.testimonial-slider').slick({
         autoplay: true,
         autoplaySpeed: 5000,
         arrows: true,
